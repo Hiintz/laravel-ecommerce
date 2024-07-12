@@ -1,0 +1,28 @@
+.carousel-item img {
+    max-height: 500px; 
+    object-fit: contain; 
+}
+
+.card-img-top {
+    max-height: 300px;
+    object-fit:contain;
+}
+
+/* Styles pour le texte du carrousel */
+.carousel-caption h5,
+.carousel-caption p {
+    color: black; 
+}
+
+/* Styles pour les flèches du carrousel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black; 
+}
+
+.carousel-caption-bg {
+    background-color: rgba(197, 183, 183, 0.5); 
+    backdrop-filter: blur(10px); 
+    padding: 10px; 
+    border-radius: 10px; 
+}
